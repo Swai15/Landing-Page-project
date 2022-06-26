@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  font-family: monospace;
+  font-size: 1.03em;
+}
+
+/*HEADER DIV */
+.header {
+  height: 10vh;
+  background: rgb(151, 99, 107);
+  position: relative;
+}
+
+.burns {
+  height: 100%;
+  transform: scaleX(-1);
+  margin-left: 3em;
+}
+
+.header-info {
+  margin-right: 30px;
+  position: absolute;
+  right: 2%;
+  bottom: 40%;
+}
+
+.header-info a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+.info-spacing {
+  margin-right: 2em;
+}
+
+.info-spacing:hover {
+  color: rgb(75, 23, 23);
+}
+
+
+/* 2. SECOND SECTION */
+.second {
+  background: #1F2937;
+  height: 50vh;
+  display: flex;
+  color: white;
+
+}
+
+.second div {
+  position: relative;
+}
+
+.second-1 {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}
+
+.second-1 button {
+  margin-top: 1.2em;
+  font-size: 1.3em;
+  background: rgb(59, 155, 184);
+  color: rgb(236, 236, 236);
+  border: 1px rgb(59, 155, 184) solid;
+  border-radius: 15px;
+}
+
+.second-1 button:hover {
+  font-size: 1.32em;
+
+}
+
+.second-2 {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+.second-2 img {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .second-2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+
+  .second-2 img {
+    width: 60%;
+  }
+
+
+}
+
+
+/* 3 THIRD SECTION */
+.third {
+  background: rgb(44, 44, 44);
+  height: 100%h;
+  color: rgb(223, 223, 223);
+}
+
+
+.third-1 h2 {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.third-1 img {
+  max-width: 15vh;
+  margin: 20px 20px;
+  width: auto;
+  height: auto;
+}
+
+.third-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-grow: 1;
+
+
+}
+
+
+.villains {
+  /* margin-top: 1.2em; */
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  border: 3px white solid;
+
+
+  /* width: 20%; */
+
+}
+
+.villains-caption {
+  width: 15vh;
+  margin: 0px 20px;
+  /* display: inline-block; */
+}
+
+@media screen and (max-width: 768px) {
+  .third-flex {
+    flex-basis: 50%;
+  }
+}
+
+/* 3. FOURTH SECTION */
+.fourth {
+  background: rgb(54, 64, 78);
+  height: 60vh;
+}
+
+.fourth-1 {
+  text-align: center;
+  font-size: 1.4em;
+  padding-top: 7em;
+  color: white;
+}
+
+.quote {
+  font-size: 0.7em;
+  padding-left: 25em;
+  padding-top: 1.5em;
+}
+
+/* 5. FIFTH SECTION */
+.fifth {
+  height: 30vh;
+  background: rgb(76, 52, 85);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+
+
+
+}
+
+.fifth-1 {
+  width: 500px;
+  height: 90px;
+  background-color: rgb(73, 113, 129);
+  padding-left: 10px;
+  position: relative;
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px black;
+}
+
+.fifth-1:hover {
+  background: url(./Images/Smile.jpg);
+  background-position: center;
+  background-size: 600px 200px;
+  color: rgb(255, 255, 255);
+
+}
+
+.last-first {
+  font-size: 1.2em;
+}
+
+.fifth-1 button {
+  background: none;
+  border: 3px white solid;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+.fifth-1 button:hover {
+  font-size: 0.85em;
+  background: rgb(45, 95, 95);
+}
